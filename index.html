@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 2</title>
+    <link rel="stylesheet" href="duong.css">
+</head>
+<body>
+    <form method="get" action="youtube.html" onsubmit = "return validateForm()">
+        <h1>Đăng kí</h1>
+        <div class="box"> 
+            Họ và tên:<br>
+            <input id="ten" placeholder="Tên của bạn" type="text"><br>
+        </div>
+        <div class="box"> 
+            Tuổi:<br>
+            <input id="tuoi" placeholder="Tuổi của bạn" type="number"><br>
+        </div>
+        <div class="box"> 
+            Số điện thoại:<br>
+            <input id="dienthoai" placeholder="Số điện thoại" type="number" ><br>
+        </div>
+        <div class="box">
+            Giới tính:<br>
+            <select id="gioitinh">
+                <option value="1">Trai</option>
+                <option value="2">Gái</option>
+            </select>
+        </div>
+        <div id="button">
+            <button>Đăng kí</button>  
+            <p>Bạn đã có tài khoản?</p>
+        </div>
+    </form>
+    
+    <script src="hi.js"></script>
+</body>
+</html>
